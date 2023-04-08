@@ -1,0 +1,19 @@
+.inputOption {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  /* border: 1px solid red; */
+  height: 40px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.inputOption:hover {
+  background-color: rgb(240, 236, 236);
+}
+
+.inputOption > p {
+  margin-left: 10px;
+  color: gray;
+  font-size: 16px;
+}
